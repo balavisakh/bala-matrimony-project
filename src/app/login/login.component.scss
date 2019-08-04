@@ -1,0 +1,41 @@
+.login_form {
+    width: 25%;
+    margin: auto;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    display: flex;
+    margin-top: 12%;
+}
+.login_btn {
+    text-align: center;
+    margin-top: 15px;
+}
+.login_button{
+    width: 100%;
+}
+.login_head_div {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.login_container {
+    padding: 20px;
+}
+.login_head {
+    color: #f00;
+}
+@media screen and (max-width: 576px){
+    .login_form{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 780px){
+    .login_form{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1030px){
+    .login_form{
+        width: 90%;
+    }
+}
